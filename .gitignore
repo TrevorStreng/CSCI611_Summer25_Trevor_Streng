@@ -1,0 +1,50 @@
+# Generated using this chatgpt prompt
+# "what should I put in a .gitignore.
+#  I am working on a homework assignment to create a cnn for the cifar-10 image set.
+#   we are using .ipynb files and I have had to add different libraries like opencv"
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Jupyter Notebooks Checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+*.env
+*.venv
+
+# VSCode or IDE settings (optional)
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and debug files
+*.log
+
+# Model weights, outputs (optional)
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+
+# OpenCV cache or temporary files (if any)
+*.xml
+*.yaml
+*.yml
+
+# Data files (optional, depends on your setup)
+*.npz
+*.npy
+
+# If you accidentally saved CIFAR-10 locally
+cifar-10-batches-py/
