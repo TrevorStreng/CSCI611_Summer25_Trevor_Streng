@@ -2,7 +2,7 @@
 # "what should I put in a .gitignore.
 #  I am working on a homework assignment to create a cnn for the cifar-10 image set.
 #   we are using .ipynb files and I have had to add different libraries like opencv"
-
+*.tar.gz
 # Python
 __pycache__/
 *.py[cod]
