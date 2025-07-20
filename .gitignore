@@ -50,3 +50,5 @@ Thumbs.db
 
 # If you accidentally saved CIFAR-10 locally
 cifar-10-batches-py/
+
+final_project/Fruit_dataset/
